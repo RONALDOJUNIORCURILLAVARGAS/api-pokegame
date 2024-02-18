@@ -20,7 +20,7 @@ module.exports = function(app){
     let path = api.base;
     
     app.get(path,function(req,res){
-        res.send("Este el API de LID")
+        res.send("Este el API de Pokegame")
     });
    
     
